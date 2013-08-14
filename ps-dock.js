@@ -8,7 +8,6 @@ var runner = require('./lib/child_process_runner')
 var psDock = this;
 
 var realArgs = process.argv;
-console.log(realArgs);
 realArgs.splice(0, 2); // Start at 2 to ignore node and script_file_path
 var logger;
 var notificator;
